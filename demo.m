@@ -1,4 +1,4 @@
-function [Clusters, Maps] = demo_somaye(Data, Para)
+function [Clusters, Maps] = demo(Data, Para)
 %
 [W, offs] = gen_opt_data(Data);
 X = match_lift2(W, offs, Para);
