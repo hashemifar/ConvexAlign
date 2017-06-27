@@ -20,7 +20,7 @@ joint_interface(‘name of folder’, Para);
 •	ConvexAlign first asks for the number of input networks that you want to align. Then It asks for name of input networks. While giving the name of networks, do not include the suffix ‘.net’.
 •	The output alignment is saved in your work directory under this name: 
 
-                                               name1-name2- …. -nameK.align 
+                                          name1-name2- …. -nameK.align 
                                                    
 where name1 to nameK are the names of your K input networks. Output file is a tab separated file in which each line indicates a cluster of matching nodes from input networks. Each cluster at most contains one node from each network. 
 
