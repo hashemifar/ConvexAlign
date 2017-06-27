@@ -26,7 +26,7 @@ How to run ConvexAlign:
 
 There is a sample of three networks in folder data. Below is a run for this sample data:
 
->>joint_interface('data', Para)
+>> joint_interface('data', Para);
 How many networks do you want to align? 3
 Name of 1 network:A
 Name of 2 network:B
