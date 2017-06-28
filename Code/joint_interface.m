@@ -1,7 +1,5 @@
 function [matches] = joint_interface(foldername,Data, Para)
 
-%load data
-%Data = load_dataset_interface(foldername);
 % Compute the data-matrix 
 [X, offs] = joint_multi_convex_align(Data, Para);
 % Round the data matrix into consistent matches
