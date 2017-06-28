@@ -28,7 +28,7 @@ where name1 to nameK are the names of your K input networks. Output file is a ta
 
 There is a sample of three networks in folder data. Below is a run for this sample data:
 
-\>\> joint_interface('data', Para)\;
+\>\> ConvexAlign('data', Para)\;
 
 How many networks do you want to align? 3
 
